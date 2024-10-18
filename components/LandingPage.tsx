@@ -88,7 +88,7 @@ export function LandingPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Start Your Journey</h2>
                 <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Whether you're a student, researcher, or enthusiast, zyumn.ai provides the tools and knowledge to explore
+                  Whether you&apos;re a student, researcher, or enthusiast, zyumn.ai provides the tools and knowledge to explore
                   the fascinating world of AI-based simulations, randomness, and chaos theory.
                 </p>
               </div>

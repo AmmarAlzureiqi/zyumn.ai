@@ -41,7 +41,7 @@ export function AboutPage() {
                 </CardHeader>
                 <CardContent>
                   <p>
-                    At zyumn.ai, we're dedicated to unraveling the complexities of randomness and chaos in AI systems.
+                    At zyumn.ai, we&apos;re dedicated to unraveling the complexities of randomness and chaos in AI systems.
                     Our mission is to provide accessible, interactive simulations and educational resources that bridge
                     the gap between theoretical concepts and practical applications in the field of AI and complex systems.
                   </p>
@@ -82,7 +82,7 @@ export function AboutPage() {
                 <CardContent>
                   <p>
                     We believe in the power of education to drive innovation. Our platform is designed for students,
-                    professionals, and enthusiasts alike. Whether you're just starting out or looking to deepen your
+                    professionals, and enthusiasts alike. Whether you&apos;re just starting out or looking to deepen your
                     understanding, zyumn.ai provides the tools and knowledge to explore the fascinating world of AI
                     simulations and chaos theory.
                   </p>
