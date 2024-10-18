@@ -2,7 +2,7 @@
 
 Welcome to the AI-Powered Statistical Analysis and Visualization project! This application combines cutting-edge AI technologies with robust statistical methods to provide insightful data analysis and beautiful visualizations.
 
-![Project Banner](https://via.placeholder.com/1200x300)
+<!-- ![Project Banner](https://via.placeholder.com/1200x300) -->
 
 ## Live Demo
 
@@ -34,7 +34,6 @@ Check out our live demo at [zyumn-ai.vercel.app](https://zyumn-ai.vercel.app)
   - Plotly
 - **Deployment:**
   - Vercel (Frontend)
-  - Heroku (Backend)
 
 ## Getting Started
 
