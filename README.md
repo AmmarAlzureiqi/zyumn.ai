@@ -47,7 +47,7 @@ Check out our live demo at [zyumn-ai.vercel.app](https://zyumn-ai.vercel.app)
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/AmmarAlzureiqi/zyumn.ai
    ```
 
 2. Install frontend dependencies:
@@ -73,16 +73,9 @@ Check out our live demo at [zyumn-ai.vercel.app](https://zyumn-ai.vercel.app)
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We welcome contributions! 
 
 ## Contact
 
-For any queries or support, please reach out to us at [your-email@example.com](mailto:your-email@example.com).
+For any queries or support, please reach out to us at [alzureiqi2@gmail.com](mailto:alzureiqi2@gmail.com).
 
----
-
-Made with ❤️ by [Your Name/Team Name]
