@@ -1,85 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI-Powered Statistical Analysis</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 font-sans">
-    <header class="bg-blue-600 text-white py-4">
-        <div class="container mx-auto px-4">
-            <h1 class="text-3xl font-bold">AI-Powered Statistical Analysis</h1>
-        </div>
-    </header>
+# AI-Powered Statistical Analysis and Visualization
 
-<main class="container mx-auto px-4 py-8">
-        <section class="mb-12">
-            <h2 class="text-2xl font-semibold mb-4">Welcome to the Future of Data Analysis</h2>
-            <p class="text-lg mb-4">Harness the power of AI to gain unprecedented insights from your data.</p>
-            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                Get Started
-            </a>
-        </section>
+Welcome to the AI-Powered Statistical Analysis and Visualization project! This application combines cutting-edge AI technologies with robust statistical methods to provide insightful data analysis and beautiful visualizations.
 
-<section class="mb-12">
-            <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
-            <ul class="list-disc list-inside">
-                <li>Advanced statistical analysis</li>
-                <li>AI-driven insights</li>
-                <li>Interactive data visualizations</li>
-                <li>Support for various data types and formats</li>
-                <li>Responsive design for desktop and mobile</li>
-            </ul>
-        </section>
+![Project Banner](https://via.placeholder.com/1200x300)
 
-<section class="mb-12">
-            <h2 class="text-2xl font-semibold mb-4">Our Tech Stack</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="bg-white p-4 rounded shadow">
-                    <h3 class="font-semibold">Frontend</h3>
-                    <ul>
-                        <li>Next.js</li>
-                        <li>Tailwind CSS</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <h3 class="font-semibold">Backend</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>FastAPI</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <h3 class="font-semibold">AI/ML</h3>
-                    <ul>
-                        <li>TensorFlow</li>
-                        <li>PyTorch</li>
-                        <li>scikit-learn</li>
-                    </ul>
-                </div>
-                <div class="bg-white p-4 rounded shadow">
-                    <h3 class="font-semibold">Data Visualization</h3>
-                    <ul>
-                        <li>D3.js</li>
-                        <li>Plotly</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+## Live Demo
 
-<section>
-            <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
-            <p class="mb-4">Interested in learning more? Contact us today!</p>
-            <a href="mailto:info@example.com" class="text-blue-500 hover:underline">info@example.com</a>
-        </section>
-    </main>
+Check out our live demo at [zyumn-ai.vercel.app](https://zyumn-ai.vercel.app)
 
-<footer class="bg-gray-800 text-white py-4 mt-12">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2024 AI-Powered Statistical Analysis. All rights reserved.</p>
-        </div>
-</footer>
-</body>
-</html>
+## Features
+
+- 📊 Advanced statistical analysis
+- 🤖 AI-driven insights
+- 📈 Interactive data visualizations
+- 🔢 Support for various data types and formats
+- 📱 Responsive design for desktop and mobile
+
+## Tech Stack
+
+- **Frontend:**
+  - Next.js
+  - Tailwind CSS
+  - React
+- **Backend:**
+  - Python
+  - FastAPI (for API endpoints)
+- **AI/ML:**
+  - TensorFlow
+  - PyTorch
+  - scikit-learn
+- **Data Visualization:**
+  - D3.js
+  - Plotly
+- **Deployment:**
+  - Vercel (Frontend)
+  - Heroku (Backend)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- Python (v3.8 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+
+2. Install frontend dependencies:
+   ```
+   cd frontend
+   npm install
+   ```
+
+3. Install backend dependencies:
+   ```
+   cd backend
+   pip install -r requirements.txt
+   ```
+
+4. Set up environment variables (see `.env.example` for required variables)
+
+5. Run the development server:
+   ```
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any queries or support, please reach out to us at [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Made with ❤️ by [Your Name/Team Name]
