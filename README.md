@@ -62,14 +62,12 @@ Check out our live demo at [zyumn-ai.vercel.app](https://zyumn-ai.vercel.app)
    pip install -r requirements.txt
    ```
 
-4. Set up environment variables (see `.env.example` for required variables)
-
-5. Run the development server:
+4. Run the development server:
    ```
    npm run dev
    ```
 
-6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ## Contributing
 
