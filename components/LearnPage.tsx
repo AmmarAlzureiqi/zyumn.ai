@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Zap, BookOpen, FileText, PieChart, Code, TrendingUp, Atom, Brain, Dices, Wind } from "lucide-react"
+import { Zap, BookOpen, FileText, PieChart, Code, TrendingUp, Atom, Brain, Wind } from "lucide-react"
 import Link from "next/link"
 
 export function LearnPage() {

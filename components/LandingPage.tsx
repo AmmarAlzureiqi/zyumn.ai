@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { ChevronRight, Code, Dices, LineChart, Zap, Wind, Sparkles } from "lucide-react"
+import { ChevronRight, Code, Dices, LineChart, Wind, Sparkles } from "lucide-react"
 import Link from "next/link"
 
 export function LandingPage() {

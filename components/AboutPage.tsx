@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Zap, Users, Lightbulb, Code, GraduationCap } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Users, Lightbulb, Code, GraduationCap } from "lucide-react"
 import Link from "next/link"
 
 export function AboutPage() {
