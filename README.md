@@ -1,6 +1,6 @@
 # zyumn.ai - Simulations of Randomness, Chaos, and Fractals
 
-Welcome to **zyumn.ai**! This project showcases a variety of interactive simulations focused on **statistics, probability, randomness, and chaos theory**. Our goal is to visually demonstrate complex mathematical and computational concepts, allowing users to explore randomness and chaos through different models and simulations.
+Welcome to **zyumn.ai**! This project showcases a variety of interactive simulations focused on **statistical simulations, randomness, and chaos theory**. Our goal is to visually demonstrate complex mathematical and computational concepts, allowing users to explore randomness and chaos through different models and simulations.
 
 **Website:** [zyumn.ai.vercel.app](https://zyumn-ai.vercel.app)
 
@@ -58,7 +58,7 @@ zyumn.ai offers users a chance to interact with **simulations of random processe
 
 ### Contributing
 
-We welcome contributions! Whether you're a developer, mathematician, or enthusiast of chaos theory, statistics, and probability, feel free to contribute by improving existing simulations or adding new ones. Please submit a pull request with your suggestions and we will review them promptly.
+We welcome contributions! Whether you're a developer, mathematician, or enthusiast of chaos, feel free to contribute by improving existing simulations or adding new ones. Please submit a pull request with your suggestions and we will review them promptly.
 
 ---
 
