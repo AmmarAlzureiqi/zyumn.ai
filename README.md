@@ -1,4 +1,4 @@
-# zyumn.ai - Simulations of Randomness, Chaos, and Fractals
+# zyumn.ai - Simulations of Randomness and Chaos
 
 Welcome to **zyumn.ai**! This project showcases a variety of interactive simulations focused on **statistical simulations, randomness, and chaos theory**. Our goal is to visually demonstrate complex mathematical and computational concepts, allowing users to explore randomness and chaos through different models and simulations.
 
@@ -6,7 +6,7 @@ Welcome to **zyumn.ai**! This project showcases a variety of interactive simulat
 
 ## Overview
 
-zyumn.ai offers users a chance to interact with **simulations of random processes, fractals, and chaotic systems**. The simulations are visually presented and enable users to experiment with parameters to see how they impact the underlying behavior of different models. Each simulation is designed to reveal how randomness, chaos, and fractal structures play a role in both natural and artificial systems.
+zyumn.ai offers users a chance to interact with **simulations of random processes, and chaotic systems**. The simulations are visually presented and enable users to experiment with parameters to see how they impact the underlying behavior of different models. Each simulation is designed to reveal how randomness and chaos play a role in both natural and artificial systems.
 
 ### Simulations Featured
 
@@ -26,19 +26,14 @@ zyumn.ai offers users a chance to interact with **simulations of random processe
    - Generate prime numbers and analyze their distribution, prime gaps, and patterns.
    - Investigate statistical phenomena related to primes, such as the **Prime Number Theorem**, **twin prime counting**, and **Benford's Law** applied to primes.
 
-#### 5. **Fractals**
-   - Generate and explore famous fractals like the **Mandelbrot Set**, **Julia Sets**, and **Sierpinski Carpet**.
-   - Visualize how complex patterns emerge from simple rules and calculate the **fractal dimension** of these structures using methods like box-counting.
-   - Experiment with fractal Brownian motion, iterated function systems (IFS), and percolation clusters to uncover randomness within fractals.
-
-#### 6. **Quantum Random Number Generator Emulator**
+#### 5. **Quantum Random Number Generator Emulator**
    - Experience randomness on a quantum level with a **Quantum Random Number Generator (QRNG) emulator**, simulating random outcomes based on principles of quantum mechanics and comparing its output with classical PRNGs.
 
-#### 7. **Genetic Algorithm Optimization**
+#### 6. **Genetic Algorithm Optimization**
    - Explore genetic algorithms, which rely on random mutation and selection processes.
    - Simulate how different random seeds impact the convergence and optimization of complex solutions.
 
-#### 8. **Markov Chain Text Generation**
+#### 7. **Markov Chain Text Generation**
    - Generate text using **Markov Chains** and compare the randomness and statistical properties of text generated from different corpora.
    - See how this compares with the output of language models like GPT and BERT.
 
@@ -53,7 +48,6 @@ zyumn.ai offers users a chance to interact with **simulations of random processe
 
 - **Interactive Parameter Adjustment:** Allow users to adjust parameters for each simulation and see real-time visual changes.
 - **Advanced Chaotic System Simulations:** Include additional chaotic systems such as the **Henon Map** and more complex attractors.
-- **Multi-dimensional Fractals:** Expand fractal generation to higher dimensions and explore their statistical properties.
 - **Entropy and Complexity Measures:** Include statistical measures like Shannon entropy, Lyapunov exponents, and fractal dimension estimation for deeper analysis of randomness and chaos.
 
 ### Contributing
