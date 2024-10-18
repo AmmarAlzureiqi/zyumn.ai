@@ -13,7 +13,7 @@
         </div>
     </header>
 
-    <main class="container mx-auto px-4 py-8">
+<main class="container mx-auto px-4 py-8">
         <section class="mb-12">
             <h2 class="text-2xl font-semibold mb-4">Welcome to the Future of Data Analysis</h2>
             <p class="text-lg mb-4">Harness the power of AI to gain unprecedented insights from your data.</p>
@@ -22,7 +22,7 @@
             </a>
         </section>
 
-        <section class="mb-12">
+<section class="mb-12">
             <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
             <ul class="list-disc list-inside">
                 <li>Advanced statistical analysis</li>
@@ -33,7 +33,7 @@
             </ul>
         </section>
 
-        <section class="mb-12">
+<section class="mb-12">
             <h2 class="text-2xl font-semibold mb-4">Our Tech Stack</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="bg-white p-4 rounded shadow">
@@ -69,17 +69,17 @@
             </div>
         </section>
 
-        <section>
+<section>
             <h2 class="text-2xl font-semibold mb-4">Get in Touch</h2>
             <p class="mb-4">Interested in learning more? Contact us today!</p>
             <a href="mailto:info@example.com" class="text-blue-500 hover:underline">info@example.com</a>
         </section>
     </main>
 
-    <footer class="bg-gray-800 text-white py-4 mt-12">
+<footer class="bg-gray-800 text-white py-4 mt-12">
         <div class="container mx-auto px-4 text-center">
             <p>&copy; 2024 AI-Powered Statistical Analysis. All rights reserved.</p>
         </div>
-    </footer>
+</footer>
 </body>
 </html>
