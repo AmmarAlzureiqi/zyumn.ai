@@ -1,28 +1,27 @@
-// components/Header.tsx
+import { Button } from "@/components/ui/button"
+import { Bell, Settings, User } from "lucide-react"
 import Link from "next/link"
-import { Zap } from "lucide-react"
 
 export function Header() {
   return (
-    <header className="px-4 lg:px-6 h-14 flex items-center">
-      <Link href="/" className="flex items-center justify-center">
-        <Zap className="h-6 w-6" />
-        <span className="ml-2 text-2xl font-bold">zyumn.ai</span>
-      </Link>
-      <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link href="/" className="text-sm font-medium hover:underline underline-offset-4">
-          Home
+    <header className="bg-white border-b border-gray-200 shadow-sm">
+      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+        <Link href="/" className="text-2xl font-bold ai-gradient">
+          zyumn.ai
         </Link>
-        <Link href="/simulations" className="text-sm font-medium hover:underline underline-offset-4">
-          Simulations
-        </Link>
-        <Link href="/learn" className="text-sm font-medium hover:underline underline-offset-4">
-          Learn
-        </Link>
-        <Link href="/about" className="text-sm font-medium hover:underline underline-offset-4">
-          About
-        </Link>
-      </nav>
+        <div className="flex items-center space-x-4">
+          <Button variant="ghost" size="icon" className="text-gray-600 hover:text-primary">
+            <Bell className="h-5 w-5" />
+          </Button>
+          <Button variant="ghost" size="icon" className="text-gray-600 hover:text-primary">
+            <Settings className="h-5 w-5" />
+          </Button>
+          <Button variant="ghost" size="icon" className="text-gray-600 hover:text-primary">
+            <User className="h-5 w-5" />
+          </Button>
+        </div>
+      </div>
     </header>
   )
 }
+
