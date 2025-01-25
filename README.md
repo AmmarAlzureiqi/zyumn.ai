@@ -1,58 +1,83 @@
-# zyumn.ai - Simulations of Randomness and Chaos
+# zyumn.ai
 
-Welcome to **zyumn.ai**! This project showcases a variety of interactive simulations focused on **statistical simulations, randomness, and chaos theory**. Our goal is to visually demonstrate complex mathematical and computational concepts, allowing users to explore randomness and chaos through different models and simulations.
+Modern AI-powered trading platform combining real-time market analysis, strategy development, and backtesting capabilities. Built for traders and analysts seeking an edge through machine learning and natural language processing.
 
 **Website:** [zyumn.ai.vercel.app](https://zyumn-ai.vercel.app)
 
-## Overview
+<!-- ![zyumn.ai Platform Screenshot](path_to_screenshot.png) -->
 
-zyumn.ai offers users a chance to interact with **simulations of random processes, and chaotic systems**. The simulations are visually presented and enable users to experiment with parameters to see how they impact the underlying behavior of different models. Each simulation is designed to reveal how randomness and chaos play a role in both natural and artificial systems.
+## Key Features
 
-### Simulations Featured
+🚀 **Real-Time Analysis**
+- Live market data visualization
+- Pattern recognition
+- Custom indicators
+- Multi-timeframe analysis
 
-#### 1. **Monte Carlo Simulation of Pi**
-   - A demonstration of how randomness can be used to estimate the value of Pi by simulating random point generation within a square and comparing points that land inside a quarter circle.
-   - Experiment with different pseudo-random number generators (PRNGs) and compare their effects on the accuracy of Pi estimations.
+🧠 **AI Trading Engine**
+- LLM market research
+- Sentiment analysis
+- Automated signals
+- Risk optimization
 
-#### 2. **Random Walks and Brownian Motion**
-   - Explore different types of random walk models: **Simple Random Walk**, **Levy Flight**, and **Brownian Motion**.
-   - Compare their behavior across multiple simulations, adjust parameters such as number of steps and distributions, and analyze the statistical properties of their final positions.
+📊 **Advanced Backtesting**
+- Strategy simulation
+- Performance metrics
+- Cost analysis
+- Risk assessment
 
-#### 3. **Butterfly Effect and Chaotic Systems**
-   - Dive into **chaos theory** by experimenting with sensitive dependence on initial conditions through simulations like the **Logistic Map** and the famous **Lorenz System** (with its butterfly-shaped attractor).
-   - Adjust initial parameters to visualize how small changes can lead to drastically different outcomes, a hallmark of chaotic systems.
+## Tech Stack
 
-#### 4. **Prime Numbers and Statistical Patterns**
-   - Generate prime numbers and analyze their distribution, prime gaps, and patterns.
-   - Investigate statistical phenomena related to primes, such as the **Prime Number Theorem**, **twin prime counting**, and **Benford's Law** applied to primes.
+```mermaid
+graph TD
+    A[Frontend: Next.js] --> B[API Gateway]
+    B --> C[Market Data Service: Rust]
+    B --> D[AI Engine: Python]
+    B --> E[Backtesting: Go]
+    C --> F[(TimescaleDB)]
+    D --> G[Kafka]
+    E --> F
+```
 
-#### 5. **Quantum Random Number Generator Emulator**
-   - Experience randomness on a quantum level with a **Quantum Random Number Generator (QRNG) emulator**, simulating random outcomes based on principles of quantum mechanics and comparing its output with classical PRNGs.
+- **Frontend:** Next.js, TypeScript
+- **Backend:** Rust, Python, Go
+- **Data:** TimescaleDB, Kafka, Redis
+- **Infrastructure:** Docker, Kubernetes
 
-#### 6. **Genetic Algorithm Optimization**
-   - Explore genetic algorithms, which rely on random mutation and selection processes.
-   - Simulate how different random seeds impact the convergence and optimization of complex solutions.
+## Quick Start
 
-#### 7. **Markov Chain Text Generation**
-   - Generate text using **Markov Chains** and compare the randomness and statistical properties of text generated from different corpora.
-   - See how this compares with the output of language models like GPT and BERT.
+```bash
+git clone https://github.com/AmmarAlzureiqi/zyumn.ai
+cd zyumn.ai
+docker-compose up
+```
 
-### Technology Stack
+Visit `http://localhost:3000` to access the platform.
 
-- **Frontend:** [Next.js](https://nextjs.org/) – for building a fast and responsive web application.
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) – for utility-first styling and layout design.
-- **Backend & Simulations:** Python-based simulations integrated into the frontend, showcasing computational models in an interactive, web-based environment.
-- **Hosting:** [Vercel](https://vercel.com/) – the site is hosted on Vercel for fast, reliable, and scalable deployment.
+<!-- ## Screenshots
 
-### Future Features
+| Dashboard | Strategy Builder | Backtesting |
+|-----------|-----------------|-------------|
+| ![Dashboard](path_to_dash.png) | ![Builder](path_to_builder.png) | ![Backtesting](path_to_back.png) | -->
 
-- **Interactive Parameter Adjustment:** Allow users to adjust parameters for each simulation and see real-time visual changes.
-- **Advanced Chaotic System Simulations:** Include additional chaotic systems such as the **Henon Map** and more complex attractors.
-- **Entropy and Complexity Measures:** Include statistical measures like Shannon entropy, Lyapunov exponents, and fractal dimension estimation for deeper analysis of randomness and chaos.
+## Development Status
 
-### Contributing
+- ✅ Core architecture
+- 🏗️ Market data integration
+- 🏗️ AI strategy engine
+- 🏗️ Backtesting system
+- 📅 Advanced analytics (Planned)
+- 📅 Mobile app (Planned)
 
-We welcome contributions! Whether you're a developer, mathematician, or enthusiast of chaos, feel free to contribute by improving existing simulations or adding new ones. Please submit a pull request with your suggestions and we will review them promptly.
+<!-- ## Learn More -->
+
+<!-- - [Documentation](docs/README.md) -->
+<!-- - [API Reference](docs/api.md)
+- [Contributing Guide](CONTRIBUTING.md) -->
+
+## License
+
+MIT © zyumn
 
 ---
-
+Built with precision in Rust, intelligence in Python, and real-time capabilities in Go.
