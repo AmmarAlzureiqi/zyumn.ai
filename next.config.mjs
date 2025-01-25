@@ -1,5 +1,8 @@
 import path from 'path';
 
+// Use import.meta.url to get the current directory path
+const __dirname = new URL('.', import.meta.url).pathname;
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   webpack(config) {
